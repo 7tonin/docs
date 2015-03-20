@@ -3,7 +3,7 @@ Routing
 
 Routing est une fonctionnalité qui mappe les URLs aux actions du controller.
 Elle a été ajoutée à CakePHP pour rendre les URLs belles et plus configurables
-et flexibles. L'utilisation du mod\_rewrite de Apache n'est pas nécessaire pour
+et flexibles. L'utilisation du mod_rewrite de Apache n'est pas nécessaire pour
 utiliser les routes, mais cela rendra votre barre d'adresse beaucoup plus
 élégante.
 
@@ -56,8 +56,8 @@ actions de votre controller en utilisant l'URL. ::
         http://example.com/controller/action/param1/param2/param3
 
 L'URL /posts/view mappe à l'action view() de
-PostsController, et /products/view\_clearance mappe vers l'action
-view\_clearance() de ProductsController. Si aucune action n'est spécifiée
+PostsController, et /products/view_clearance mappe vers l'action
+view_clearance() de ProductsController. Si aucune action n'est spécifiée
 dans l'URL, la méthode index() est supposée.
 
 La configuration du routing par défaut vous permet aussi de passer les
@@ -394,7 +394,7 @@ En utilisant notre exemple des users, accéder à l'URL
 ``/admin/users/edit/5`` devrait appeler la méthode ``admin_edit``
 de notre ``UsersController`` en passant 5 comme premier paramètre.
 Le fichier de vue correspondant devra être
-``app/View/Users/admin\_edit.ctp``.
+``app/View/Users/admin_edit.ctp``.
 
 Vous pouvez faire correspondre l'URL /admin à votre action ``admin_index``
 du controller Pages en utilisant la route suivante::
